@@ -145,6 +145,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .about_me {
   margin-top: 70px; }
 
+.resume {
+  background-color: #242830;
+  padding: 30px 0; }
+
+.stylebutton {
+  display: inline-block;
+  padding: 25px 40px;
+  color: #fff;
+  border: solid 1px #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px; }
+  .stylebutton:hover {
+    color: #3dc9b3;
+    border: 1px solid #3dc9b3;
+    text-decoration: none; }
+
 @media only screen and (max-width: 640px) {
   .photo {
     width: 150px;
