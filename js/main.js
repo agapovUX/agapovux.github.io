@@ -109,6 +109,74 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
-
+/*  CIRCLES
+////
+////
+////
+         */
+var myCircle = Circles.create({
+  id:                  'circles-1',
+  radius:              80,
+  value:               60,
+  maxValue:            100,
+  width:               6,
+  text:                function(value){return value + '%';},
+  colors:              ['#cccccc', '#000000'],
+  duration:            400,
+  wrpClass:            'circles-wrp',
+  textClass:           'circles-text',
+  valueStrokeClass:    'circles-valueStroke',
+  maxValueStrokeClass: 'circles-maxValueStroke',
+  styleWrapper:        true,
+  styleText:           true
+});
+   var myCircl2 = Circles.create({
+  id:                  'circles-2',
+  radius:              80,
+  value:               30,
+  maxValue:            100,
+  width:               6,
+  text:                function(value){return value + '%';},
+  colors:              ['#cccccc', '#000000'],
+  duration:            400,
+  wrpClass:            'circles-wrp',
+  textClass:           'circles-text',
+  valueStrokeClass:    'circles-valueStroke',
+  maxValueStrokeClass: 'circles-maxValueStroke',
+  styleWrapper:        true,
+  styleText:           true
+});
+   var myCircle3 = Circles.create({
+  id:                  'circles-3',
+  radius:              80,
+  value:               45,
+  maxValue:            100,
+  width:               6,
+  text:                function(value){return value + '%';},
+  colors:              ['#cccccc', '#000000'],
+  duration:            400,
+  wrpClass:            'circles-wrp',
+  textClass:           'circles-text',
+  valueStrokeClass:    'circles-valueStroke',
+  maxValueStrokeClass: 'circles-maxValueStroke',
+  styleWrapper:        true,
+  styleText:           true
+});
+   var myCircl4 = Circles.create({
+  id:                  'circles-4',
+  radius:              80,
+  value:               50,
+  maxValue:            100,
+  width:               6,
+  text:                function(value){return value + '%';},
+  colors:              ['#cccccc', '#000000'],
+  duration:            400,
+  wrpClass:            'circles-wrp',
+  textClass:           'circles-text',
+  valueStrokeClass:    'circles-valueStroke',
+  maxValueStrokeClass: 'circles-maxValueStroke',
+  styleWrapper:        true,
+  styleText:           true
+});
 
 })
