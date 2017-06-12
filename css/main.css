@@ -122,9 +122,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   height: 300px;
   margin: 0 auto;
   border-radius: 100%;
-  background-image: url(../images/mem.jpg);
+  background-image: url(../images/weev.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 10% 20%;
   box-shadow: 0px 0px 0 5px #69203B; }
 
 .bordered {
