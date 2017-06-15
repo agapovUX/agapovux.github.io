@@ -178,5 +178,10 @@ var myCircle = Circles.create({
   styleWrapper:        true,
   styleText:           true
 });
-
+$('#left_menu a').click(function() {
+  console.log('work');
+    $('#menu').toggleClass('active');
+    $('i').toggleClass('fa-times');
+    $('i').toggleClass('fa-bars');
+  })
 })
