@@ -401,7 +401,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #contacts {
     background: rgb(243,245,248);
     position: relative;
+    border:1px solid red;
 }
+
 .cont-box {
     background: #fff;
     padding:20px 0;
@@ -410,7 +412,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     transition: ease-out 0.3s;
     &:hover {
         @include boxshadow(0px 3px 0px 0px $burgun);
-        margin-top: -10px;
     }
 }
 .cont-box > h2 > span {
