@@ -178,10 +178,23 @@ var myCircle = Circles.create({
   styleWrapper:        true,
   styleText:           true
 });
+
+   $('a[href^="#"]').on('click',function(e) {
+    e.preventDefault();
+
+    var target = this.hash;
+    var $target = $(target);    
+    $('html, body').animate({
+      'scrollTop':$target.offset().top},1000,'swing');
+    })
 $('#left_menu a').click(function() {
-  console.log('work');
     $('#menu').toggleClass('active');
-    $('i').toggleClass('fa-times');
-    $('i').toggleClass('fa-bars');
+    $('#menuico').toggleClass('fa-times');
+    $('#menuico').toggleClass('fa-bars');
   })
+$("#menu a").click(function() {
+  $('#menu').toggleClass('active');
+  $('#menuico').toggleClass('fa-times');
+  $('#menuico').toggleClass('fa-bars');
+})
 })
