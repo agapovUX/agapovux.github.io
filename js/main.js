@@ -1,4 +1,7 @@
 $(document).ready(function(){
+new WOW().init();
+
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -149,7 +152,7 @@ var myCircle = Circles.create({
    var myCircle3 = Circles.create({
   id:                  'circles-3',
   radius:              80,
-  value:               45,
+  value:               30,
   maxValue:            100,
   width:               6,
   text:                function(value){return value + '%';},
@@ -197,4 +200,7 @@ $("#menu a").click(function() {
   $('#menuico').toggleClass('fa-times');
   $('#menuico').toggleClass('fa-bars');
 })
+
+
+
 })

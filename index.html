@@ -7,14 +7,18 @@
 	<meta name="description" content="Agapov Ilya Portfolio" />
 	<meta name="keywords" content="blog блог web разработчик агапов илья web developer agapov ilya" />
 	<!-- CSS -->
+
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/reset.css">
+
 	
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Particles -->
 	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
 	<!-- JS -->
+	<script src="js/wow.min.js"></script>
 	<script src="js/circles.min.js"></script>
 	<script src="js/main.js"></script>
   	<!-- Google Webfont -->
@@ -47,7 +51,6 @@
 							<li><a href="#about">UP</a></li>
 							<li><a href="#interests">MY INTERESTS & HOBBIES</a></li>
 							<li><a href="#skills">SKILLS</a></li>
-
 							<li><a href="#contacts">CONTACTS</a></li>
 						</ul>
 					</div>
@@ -55,21 +58,20 @@
 			</div>
 		</section>
 		<header id="head">
-		<div id="particles-js"></div>
-			<div class="container ">
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4 ">
-						<h1 class="text-center animated fadeInDown ">AGAPOV ILYA</h2>
-						<div class="text-center animated fadeInUp delay-05s">web-developer</div>
+			<div id="particles-js"></div>
+				<div class="container ">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4 ">
+							<h1 class="text-center animated fadeInDown ">AGAPOV ILYA</h1>
+							<div class="text-center animated fadeInUp delay-05s">web-developer</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			
 		</header>
 
-		<section id="about" class="text-center">
+		<section id="about" class="text-center wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s" >
 			<div class="container">
-				<h2 class="withpic">ABOUT ME</h1>
+				<h2 class="withpic" id="abouts">ABOUT ME</h1>
 				<div class="row about_info">
 					<div class="col-md-7 col-xs-6 photo_holder">
 					<div class="photo">
@@ -94,7 +96,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="resume" class="text-center">
+		<section id="resume" class="text-center wow fadeInUp" data-wow-duration="1.5s" >
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -106,23 +108,23 @@
 		<section id="interests">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="class col-md-12 col-lg-12 col-xs-12 text-center">			
-							<h2 class="withpic pad">MY INTERESTS & HOBBIES</h2>
+					<div class="class col-md-12 col-lg-12 col-xs-12 text-center wow fadeIn">			
+							<h2 class="withpic pad ">MY INTERESTS & HOBBIES</h2>
 					</div>
-					<div class="col-md-6 col-lg-6 col-xs-12 text-center sport"><h3 class="hobbies">Sports</h3></div>
-					<div class="col-md-6 col-lg-6 col-xs-12 text-center read"><h3 class="hobbies">Reading</h3></div>
-					<div class="col-md-6 col-lg-6 col-xs-12 text-center psych"><h3 class="hobbies">Psychology</h3></div>
-					<div class="col-md-6 col-lg-6 col-xs-12 text-center music"><h3 class="hobbies">Music</h3></div>
+					<div class="col-md-6 col-lg-6 col-xs-12 text-center sport wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s"><h3 class="hobbies">Sports</h3></div>
+					<div class="col-md-6 col-lg-6 col-xs-12 text-center read wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s"><h3 class="hobbies">Reading</h3></div>
+					<div class="col-md-6 col-lg-6 col-xs-12 text-center psych wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s"><h3 class="hobbies">Psychology</h3></div>
+					<div class="col-md-6 col-lg-6 col-xs-12 text-center music wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s"><h3 class="hobbies">Music</h3></div>
 				</div>
 			</div>
 		</section>
 		<section id="skills">
 			<div class="container">
 				<div class="row text-center">
-					<h2 class="withpic pad">SKILLS</h2>
+					<h2 class="withpic pad ">SKILLS</h2>
 				</div>
 				<div class="row text-center">
-					<div class="col-md-6 col-xs-6 text-center">
+					<div class="col-md-6 col-xs-6 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 						<div class="circle">
 							<div id="circles-1"></div>
 							<div class="skill">
@@ -131,7 +133,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-xs-6 text-center">
+					<div class="col-md-6 col-xs-6 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 						<div class="circle">
 							<div id="circles-2"></div>
 							<div class="skill">
@@ -140,7 +142,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-xs-6 text-center">
+					<div class="col-md-6 col-xs-6 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 						<div class="circle">
 							<div id="circles-3"></div>
 							<div class="skill">
@@ -149,7 +151,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-xs-6 text-center">
+					<div class="col-md-6 col-xs-6 text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 						<div class="circle">
 							<div id="circles-4"></div>
 							<div class="skill">
@@ -162,7 +164,7 @@
 			</div>
 		</section>
 		<section id="practise">
-			<div class="container-fluid">
+			<div class="container-fluid wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 				<div class="row text-center">
 					<div class="col-md-12 col-xs-12 pr">
 						<h2>What i can do for you</h2>
@@ -174,21 +176,25 @@
 		</section>
 		<section id="contacts">
 		<a href="#head" class="arrow-d"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
-			<div class="container">
+			<div class="container ">
 				<div class="row text-center">
-					<h2 class="withpic pad">CONTACTS</h2>
+					<h2 class="withpic pad ">CONTACTS</h2>
 				</div>
-				<div class="row text-center">
-					<div class="col-md-3 col-xs-6">
-						<div class="cont-box">
-							<h2>
-							<i class="fa fa-map-marker"></i>
-							<span>Address</span>
-							</h2>
-							<p>Russia, Yaroslavl</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
+					<div class="row text-center links">
+					<a href="https://www.google.ru/maps/@57.637438,39.8804646,14.63z?hl=ru" target="_blank">
+						
+							<div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+								<div class="cont-box">
+									<h2>
+									<i class="fa fa-map-marker"></i>
+									<span>Address</span>
+									</h2>
+									<p>Russia, Yaroslavl</p>
+								</div>
+							</div>
+							</a>
+					<a href="mailto:agapovux@gmail.com" target="_blank">
+					<div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
 						<div class="cont-box">
 							<h2>
 							<i class="fa fa-paper-plane"></i>
@@ -197,24 +203,29 @@
 							<p>agapovux@gmail.com</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="cont-box">
-							<h2>
-							<i class="fa fa-vk"></i>
-							<span>VK</span>
-							</h2>
-							<p>vk.com/ryroux</p>
+					</a>
+						<a href="https://vk.com/ryroux" target="_blank">
+							<div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+								<div class="cont-box">
+									<h2>
+									<i class="fa fa-vk"></i>
+									<span>VK</span>
+									</h2>
+									<p>vk.com/ryroux</p>
+								</div>
+							</div>
+						</a>
+					<a href="https://t.me/ryroUX" target="_blank">
+						<div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+							<div class="cont-box">
+								<h2>
+								<i class="fa fa-telegram"></i>
+								<span>TELEGRAM</span>
+								</h2>
+								<p>@ryroUX</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="cont-box">
-							<h2>
-							<i class="fa fa-telegram"></i>
-							<span>TELEGRAM</span>
-							</h2>
-							<p>@ryroUX</p>
-						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</section>
